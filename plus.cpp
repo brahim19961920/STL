@@ -58,14 +58,16 @@ remplir r;
 
 vector <char> tab1(52,' ');
 vector <char> tab2(52,' ');
-vector <string> tab3(52," ");
+vector <int> tab3(52,0);
 generate(tab1.begin(),tab1.end(),r);
 generate(tab2.begin(),tab2.end(),r);
 
-//transform(tab1.begin(),tab1.end(),tab2.begin(),tab3.begin(),add());
+transform(tab1.begin(),tab1.end(),tab2.begin(),tab3.begin(),plus<int>());
 //for_each(tab3.begin(),tab3.end(),affiche());
 //cout<<int('a')<<endl<<int('Z');
-cout<<endl<<int('a')<<endl<<int('Z')<<endl<<int('A');
+//cout<<endl<<int('a')<<endl<<int('Z')<<endl<<int('A');
+cout<<tab3[0];
+
 /*
 string s1;
 char c='a';
