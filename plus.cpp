@@ -49,7 +49,6 @@ cout<<s;
 
 
 int main(){
-plus<string> add;
 /*
 cout<<add("brahim",add("benamira","benamira"));
 
@@ -63,7 +62,7 @@ vector <string> tab3(52," ");
 generate(tab1.begin(),tab1.end(),r);
 generate(tab2.begin(),tab2.end(),r);
 
-transform(tab1.begin(),tab1.end(),tab2.begin(),tab3.begin(),add());
+//transform(tab1.begin(),tab1.end(),tab2.begin(),tab3.begin(),add());
 //for_each(tab3.begin(),tab3.end(),affiche());
 //cout<<int('a')<<endl<<int('Z');
 cout<<endl<<int('a')<<endl<<int('Z')<<endl<<int('A');
